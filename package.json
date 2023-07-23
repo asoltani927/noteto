@@ -1,0 +1,43 @@
+{
+  "name": "noteto",
+  "version": "1.0.0",
+  "description": "A platform for saving daily notes",
+  "workspaces": {
+    "packages": [
+      "packages/admin",
+      "packages/auth",
+      "packages/core",
+      "packages/graphql",
+      "packages/graphql-server",
+      "packages/native-client",
+      "packages/nestjs-common",
+      "packages/prisma",
+      "packages/quickbooks-api",
+      "packages/shared",
+      "packages/task-server",
+      "packages/tracking",
+      "packages/tracking-server",
+      "packages/ui",
+      "packages/web-client"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/asoltani927/noteto.git"
+  },
+  "keywords": [
+    "note",
+    "daily",
+    "weekly",
+    "works"
+  ],
+  "author": "Amin Soltani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asoltani927/noteto/issues"
+  },
+  "homepage": "https://github.com/asoltani927/noteto#readme"
+}
