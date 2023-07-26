@@ -6,17 +6,19 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview",
-    "lint": "eslint `./src/**/*.{js,ts,vue}`"
+    "lint": "eslint `src/**/*.{ts,js,vue}`",
+    "test": "vue-cli-service test:unit"
   },
   "dependencies": {
     "eslint": "^8.45.0",
-    "vue": "^3.3.4"
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
   },
   "devDependencies": {
     "@fullhuman/vue-cli-plugin-purgecss": "^5.0.0",
     "@vitejs/plugin-vue": "^4.2.3",
     "autoprefixer": "^10.4.14",
+    "@vue/test-utils": "^2.4.1",
     "eslint-plugin-vue": "^9.15.1",
     "postcss": "^8.4.27",
     "sass": "^1.64.1",
