@@ -9,13 +9,13 @@ export default defineConfig({
     alias: {
       '@noteto/web-client': fileURLToPath(new URL('./src', import.meta.url)),
       '@': fileURLToPath(new URL('./src', import.meta.url))
-    },
-    mainFields: [
-      'browser',
-      'module',
-      'main',
-      'jsnext:main',
-      'jsnext'
-    ]
+    }
   },
+  css: {
+    preprocessorOptions: {
+        scss: {
+            additionalData: `@import "@/assets/scss/global.scss";`,
+        },
+    },
+},
 })
