@@ -22,6 +22,7 @@ run() {
   fi
 }
 
+run @noteto/nestjs-common 
 run @noteto/server
 run @noteto/web-client
 run @noteto/shared

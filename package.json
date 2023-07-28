@@ -3,9 +3,10 @@
   "private": true,
   "workspaces": {
     "packages": [
+      "packages/nestjs-common",
+      "packages/shared",
       "packages/server",
-      "packages/web-client",
-      "packages/shared"
+      "packages/web-client"
     ]
   },
   "scripts": {

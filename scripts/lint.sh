@@ -22,6 +22,7 @@ run() {
   fi
 }
 
+run @noteto/nestjs-common --max-warnings 0
 run @noteto/server --max-warnings 0
 run @noteto/web-client --max-warnings 0
 run @noteto/shared --max-warnings 0
