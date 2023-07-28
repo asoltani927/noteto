@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import '@noteto/web-client/style.css'
+import '@noteto/web-client/assets/style.css'
 import App from '@noteto/web-client/App.vue'
 
 import router from './router';
